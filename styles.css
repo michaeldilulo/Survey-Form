@@ -1,0 +1,211 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: 
+    linear-gradient(rgba(161,214,226,.5),
+    rgba(161,214,226,.5)),
+    url(WorkingTogether.jpg);
+}
+/* Title and Description */
+#title {
+    display: flex;
+    justify-content: center;
+    color: #000000
+}
+#description {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    margin-left: 15px;
+}
+.label-format {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+#survey-form {
+    background-color: #1995AD;
+    color: #F1F1F2;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid #1995AD;
+    border-radius: 9px;
+    font-size: 24px;
+}
+.button-class {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 400px) {
+    #survey-form {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .label-format {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #name-label {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    #name-label {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 200px;
+        font-size: 24px;
+    }
+    .form-inputs {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -62px;
+        width: 300px;
+        height: 28px;
+        font-size: 18px;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+        #email-label {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 200px;
+        font-size: 24px;
+        margin-left: -5px;
+    }
+        #number-label {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 220px;
+        padding-right: 2px;
+        font-size: 24px;
+        margin-left: -21px;
+    }
+        #dropdown-label {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2px;
+        font-size: 20px;
+        margin-left: -63px;
+    }
+        #recommendation-label {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        margin-left: -63px;
+    }
+        .recommendation-radio-selection {
+            margin-left: -68px;
+            font-size: 20px;
+        }
+        #subject-label {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        margin-left: -63px;
+    }
+        .subject-checkbox-selection {
+        margin-left: -68px;
+        font-size: 20px;
+    }
+        #suggestion-label {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        margin-left: -63px;
+    }
+        #suggestionComments {
+        margin-left: -68px;
+        width: 320px;
+        margin-top: 7px;
+    }
+    button#submit {
+        width: 325px;
+        margin-left: -67px;
+        height: 32px;
+        border-radius: 7px;
+        font-size: 19px;
+    }
+}
+
+@media(min-width: 401px) {
+    .form-inputs {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -150px;
+        width: 640px;
+        height: 28px;
+        font-size: 18px;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+        #name-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #email-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #number-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #dropdown-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #recommendation-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #subject-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+            #suggestion-label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        margin-left: -150px;
+    }
+    .recommendation-radio-selection {
+        font-size: 20px;
+        margin-left: -150px;
+    }
+        .subject-checkbox-selection {
+        font-size: 20px;
+        margin-left: -150px;
+    }
+    #suggestionComments {
+        font-size: 20px;
+        margin-left: -150px;
+        width: 650px;
+    }
+    button#submit {
+        width: 657px;
+        margin-left: -150px;
+        height: 35px;
+        border-radius: 7px;
+        font-size: 19px;
+    }
+}
